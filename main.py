@@ -10,7 +10,7 @@ import network as network
 import sampling as sampling
 import sys
 import random
-import keras
+from tensorflow import keras
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 from data_loader import load_program_data
 from data_loader import MonoLanguageProgramData
@@ -18,6 +18,8 @@ import argparse
 import random
 import shutil
 import progressbar
+import keras_radam
+from keras_radam import RAdam
 from keras_radam.training import RAdamOptimizer
 
 parser = argparse.ArgumentParser()

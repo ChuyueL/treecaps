@@ -18,9 +18,8 @@ import argparse
 import random
 import shutil
 import progressbar
-import keras_radam
 from keras_radam import RAdam
-from keras_radam.training import RAdamOptimizer
+#from keras_radam.training import RAdamOptimizer
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--train_batch_size', type=int, default=1, help='train batch size, always 1')

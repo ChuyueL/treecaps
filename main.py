@@ -10,7 +10,7 @@ import network as network
 import sampling as sampling
 import sys
 import random
-from tensorflow import keras
+from tensorflow import keras as keras 
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 from data_loader import load_program_data
 from data_loader import MonoLanguageProgramData

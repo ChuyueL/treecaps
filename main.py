@@ -19,6 +19,7 @@ import random
 import shutil
 import progressbar
 import keras_radam
+import keras_radam.training
 from keras_radam import RAdam
 from keras_radam.training import RAdamOptimizer
 
